@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:todolist_application/views/login/login_controller.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
-
-  final String routeName = '/views/login/login_page.dart';
+class LoginPage extends GetWidget<LoginController> {
+  static const routeName = '/views/login/login_page.dart';
   @override
   Widget build(BuildContext context) {
     return  Scaffold(

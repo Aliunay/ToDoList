@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:todolist_application/views/register/register_controller.dart';
 
-class RegisterPage extends StatelessWidget {
-  const RegisterPage({super.key});
+class RegisterPage extends GetWidget<RegisterController> {
+  static const String routeName = '/views/register/register_page.dart';
 
-  final String routeName = '/views/register/register_page.dart';
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

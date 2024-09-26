@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:todolist_application/views/home/home_controller.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class HomePage extends GetWidget<HomeController> {
 
-  final String routeName = '/views/home/home_page.dart';
+  static const String routeName = '/views/home/home_page.dart';
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
