@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:todolist_application/views/login/login_controller.dart';
 
 class LoginPage extends GetWidget<LoginController> {
-  static const routeName = '/views/login/login_page.dart';
+  static const routeName = '/views/login/login_page';
   @override
   Widget build(BuildContext context) {
     return  Scaffold(

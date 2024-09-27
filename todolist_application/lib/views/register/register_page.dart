@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:todolist_application/views/register/register_controller.dart';
 
 class RegisterPage extends GetWidget<RegisterController> {
-  static const String routeName = '/views/register/register_page.dart';
+  static const String routeName = '/views/register/register_page';
 
   @override
   Widget build(BuildContext context) {
